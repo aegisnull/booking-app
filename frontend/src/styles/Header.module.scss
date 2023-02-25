@@ -1,0 +1,36 @@
+.topbar {
+  height: 60px;
+  background-color: var(--color-blue);
+  display: flex;
+  justify-content: center;
+  padding: 10px 0;
+
+  &__container {
+    width: 100%;
+    max-width: 1024px;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  &__logo {
+    font-weight: 700;
+    font-family: sans-serif;
+    font-size: 25px;
+  }
+
+  &__nav {
+    &_button {
+      margin-left: 10px;
+      border: none;
+      background-color: white;
+      padding: 10px 20px;
+      border-radius: 3px;
+      color: var(--color-blue);
+      font-weight: 700;
+      cursor: pointer;
+      font-size: 13px;
+    }
+  }
+}
