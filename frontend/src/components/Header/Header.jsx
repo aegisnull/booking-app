@@ -1,4 +1,12 @@
 import styles from "../../styles/Header.module.scss";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import {
+  faBed,
+  faCar,
+  faPersonSkiing,
+  faPlane,
+  faTaxi,
+} from "@fortawesome/free-solid-svg-icons";
 
 function Header() {
   return (
@@ -14,7 +22,30 @@ function Header() {
       </div>
       <div className={styles.bottombar}>
         <div className={styles.bottombar__container}>
-            
+          <div className={styles.bottombar__list}>
+            <div className={styles.bottombar__icon}>
+              <FontAwesomeIcon icon={faBed} />
+              Stays
+            </div>
+            <div className={styles.bottombar__icon}>
+              <FontAwesomeIcon icon={faPlane} />
+              Flights
+            </div>
+            <div className={styles.bottombar__icon}>
+              <FontAwesomeIcon icon={faCar} />
+              Car rentals
+            </div>
+            <div className={styles.bottombar__icon}>
+              <FontAwesomeIcon icon={faPersonSkiing} />
+              Attractions
+            </div>
+            <div className={styles.bottombar__icon}>
+              <FontAwesomeIcon icon={faTaxi} />
+              Airpot taxis
+            </div>
+          </div>
+        </div>
+      </div>
     </>
   );
 }
