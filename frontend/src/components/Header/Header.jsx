@@ -12,6 +12,9 @@ function Header() {
           </nav>
         </div>
       </div>
+      <div className={styles.bottombar}>
+        <div className={styles.bottombar__container}>
+            
     </>
   );
 }
