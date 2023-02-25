@@ -1,1 +1,5 @@
 @import url("../vendor/reset.css");
+
+:root {
+  --color-blue: #003580;
+}
