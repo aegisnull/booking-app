@@ -23,7 +23,9 @@ function Header() {
       <div className={styles.bottombar}>
         <div className={styles.bottombar__container}>
           <div className={styles.bottombar__list}>
-            <div className={styles.bottombar__icon}>
+            <div
+              className={`${styles.bottombar__icon} ${styles.bottombar__icon_active}`}
+            >
               <FontAwesomeIcon icon={faBed} />
               Stays
             </div>
@@ -41,7 +43,7 @@ function Header() {
             </div>
             <div className={styles.bottombar__icon}>
               <FontAwesomeIcon icon={faTaxi} />
-              Airpot taxis
+              Airport taxis
             </div>
           </div>
         </div>

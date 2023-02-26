@@ -34,3 +34,37 @@
     }
   }
 }
+
+.bottombar {
+  background-color: var(--color-blue);
+  color: white;
+  display: flex;
+  justify-content: center;
+
+  &__container {
+    width: 100%;
+    max-width: 1024px;
+    margin: 20px 0px 100px 0px;
+  }
+
+  &__list {
+    display: flex;
+    gap: 40px;
+  }
+
+  &__icon {
+    display: flex;
+    font-family: sans-serif;
+    align-items: center;
+    gap: 10px;
+    font-weight: 300;
+    color: white;
+
+    &_active {
+      border: 1px solid white;
+      padding: 10px;
+      border-radius: 20px;
+      background-color: var(--color-light-blue);
+    }
+  }
+}
