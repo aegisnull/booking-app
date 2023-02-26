@@ -1,3 +1,4 @@
+import Search from "@/components/Search/Search";
 import Head from "next/head";
 import Header from "../components/Header/Header";
 import Hero from "../components/Hero/Hero";
@@ -14,6 +15,7 @@ export default function Main() {
       <main>
         <Header />
         <Hero />
+        <Search />
       </main>
     </>
   );
