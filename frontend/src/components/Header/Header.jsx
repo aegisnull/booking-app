@@ -16,7 +16,7 @@ function Header() {
           <div className={styles.topbar__logo}>Booking.com</div>
           <nav className={styles.topbar__nav}>
             <button className={styles.topbar__nav_button}>Register</button>
-            <button className={styles.topbar__nav_button}>Login</button>
+            <button className={styles.topbar__nav_button}>Sign in</button>
           </nav>
         </div>
       </div>
