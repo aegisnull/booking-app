@@ -1,5 +1,6 @@
 import Head from "next/head";
 import Header from "../components/Header/Header";
+import Hero from "../components/Hero/Hero";
 
 export default function Main() {
   return (
@@ -12,6 +13,7 @@ export default function Main() {
       </Head>
       <main>
         <Header />
+        <Hero />
       </main>
     </>
   );
