@@ -13,7 +13,7 @@ function Header() {
     <>
       <div className={styles.topbar}>
         <div className={styles.topbar__container}>
-          <div className={styles.topbar__logo}>LuisBooking.com</div>
+          <div className={styles.topbar__logo}>Booking.com</div>
           <nav className={styles.topbar__nav}>
             <button className={styles.topbar__nav_button}>Register</button>
             <button className={styles.topbar__nav_button}>Login</button>
