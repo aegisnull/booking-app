@@ -34,6 +34,9 @@ function Search() {
             className={styles.search__input}
           />
         </div>
+        <div className={styles.search__field}>
+          <button className={styles.search__button}>Search</button>
+        </div>
       </div>
     </>
   );
